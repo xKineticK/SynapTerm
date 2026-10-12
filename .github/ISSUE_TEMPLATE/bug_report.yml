@@ -1,0 +1,49 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Never paste passwords, private keys or recovery keys.**
+        In SynapTerm, *Settings → About & updates → Report a problem* copies a report (version, system and recent warnings) you can paste below.
+  - type: input
+    id: version
+    attributes:
+      label: SynapTerm version
+      description: Shown at the bottom of the Settings window.
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: [Windows, macOS, Linux]
+    validations:
+      required: true
+  - type: dropdown
+    id: protocol
+    attributes:
+      label: Area
+      options: [Terminal (local), SSH, SFTP / files, Tunnels, Telnet, Serial, RDP, VNC, Server list / settings, Other]
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Click …
+  - type: textarea
+    id: report
+    attributes:
+      label: Diagnostic report
+      description: Paste the report copied by "Report a problem" (review it first).
+      render: text
