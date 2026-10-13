@@ -4,7 +4,7 @@
 
 ## Download
 
-Get the installer for your system from the **[latest release](https://github.com/xKineticK/SynapTerm/releases/latest)**:
+SynapTerm is in **closed beta**. Ask for access at **[synapterm.com](https://synapterm.com)**: your invitation email has your license key and the download links for:
 
 | System | File |
 | --- | --- |
@@ -12,7 +12,7 @@ Get the installer for your system from the **[latest release](https://github.com
 | macOS 11+ | `SynapTerm_x.y.z_aarch64.dmg` (Apple Silicon) or `SynapTerm_x.y.z_x64.dmg` (Intel) |
 | Linux | `.AppImage`, `.deb` or `.rpm` |
 
-SynapTerm can check for updates by itself (*Settings → About & updates*); updates are signed and verified before they are installed.
+SynapTerm can check for updates by itself (*Settings → About & updates*) while your license includes updates; they are signed and verified before they are installed.
 
 ## What it does
 

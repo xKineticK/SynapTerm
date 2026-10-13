@@ -2,7 +2,7 @@
 
 ## Install
 
-Download the installer for your system from the [releases page](https://github.com/xKineticK/SynapTerm/releases):
+SynapTerm is in closed beta: ask for access at [synapterm.com](https://synapterm.com). The invitation email takes you to a page with your license key and the installers. To activate, open *Settings → License*, paste the key and press *Activate* (it works on up to 3 devices).
 
 | System | File | Notes |
 | --- | --- | --- |
