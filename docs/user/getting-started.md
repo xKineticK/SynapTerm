@@ -27,7 +27,7 @@ During the beta the builds may not be code-signed yet, so Windows SmartScreen or
 
 ## Saved commands and the button bar
 
-*Saved commands* (**Ctrl+Shift+J**) keeps the commands you reuse. They can contain variables: `{{host}}`, `{{user}}`, `{{port}}` and `{{alias}}` are filled in from the server, and `{{?name}}` asks for a value each time. Commands marked *in the button bar* appear as buttons under the tabs. **Ctrl+Shift+M** types into every pane of the tab at once (handy for several servers in a split layout).
+*Saved commands* (**Ctrl+Shift+J**) keeps the commands you reuse. They can contain variables: `{{host}}`, `{{user}}`, `{{port}}` and `{{alias}}` are filled in from the server, and `{{?name}}` asks for a value each time. Commands marked *in the button bar* appear as buttons under the terminal, and the *Command Manager* panel of the sidebar lists them all. To run one on many servers at once, see [Automation](automation.md). **Ctrl+Shift+M** types into every pane of the tab at once (handy for several servers in a split layout).
 
 ## Your data
 

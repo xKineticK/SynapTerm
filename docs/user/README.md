@@ -6,6 +6,7 @@ SynapTerm is a terminal and session manager: local terminals, SSH with file tran
 
 - [Getting started](getting-started.md): install, first connection, tabs and panes
 - [Protocols](protocols.md): SSH, SFTP, tunnels, Telnet, serial, RDP and VNC
+- [Automation](automation.md): Python scripts and running commands on many servers (Pro)
 - [Keyboard shortcuts](shortcuts.md)
 - [FAQ and troubleshooting](faq.md)
 
