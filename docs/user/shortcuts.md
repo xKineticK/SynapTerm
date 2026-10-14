@@ -6,7 +6,10 @@ Every shortcut can be changed or removed in *Settings → Keyboard shortcuts*.
 | --- | --- | --- |
 | General | Search servers (command palette) | Ctrl+Shift+K |
 | General | Open settings | Ctrl+, |
-| General | Show or hide the sidebar | Alt+I |
+| General | Sessions panel (opens it, or closes it if it is open) | Alt+I |
+| General | Python scripts panel | Alt+Y |
+| General | Macros panel | Alt+U |
+| General | Command Manager panel | Alt+J |
 | Tabs & panes | New local terminal tab | Ctrl+T |
 | Tabs & panes | Next / previous tab | Ctrl+Tab / Ctrl+Shift+Tab |
 | Tabs & panes | Close pane (the tab closes with its last pane) | Ctrl+W |
