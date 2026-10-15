@@ -1,6 +1,6 @@
 # Automation: scripts and batches
 
-SynapTerm Pro can run **Python scripts** that type in your sessions, wait for their output, connect to your saved servers and copy files — on one server or on many at once. Scripts never see your passwords, passphrases or keys: they use the connections SynapTerm opens for them.
+SynapTerm can run **Python scripts** that type in your sessions, wait for their output, connect to your saved servers and copy files — on one server or on many at once. Scripts never see your passwords, passphrases or keys: they use the connections SynapTerm opens for them.
 
 - [Before you start](#before-you-start)
 - [The script library](#the-script-library)
@@ -44,7 +44,7 @@ Do not use `input()` to ask something: it shows a SynapTerm dialog instead (same
 
 A **batch** runs a saved command or a script on many SSH servers:
 
-- For a **saved command**: in the *Command Manager* panel of the sidebar, hover the command and press the layers icon.
+- For a **saved command**: right-click its button in the button bar, or open the *Command Manager* (**Alt+J**), choose the command and press *Run on servers…*.
 - For a **script**: **⋯ → Run on servers…**
 
 Pick the servers by folder, tag, text or one by one, choose how many run at once, press **Review** to see the list of targets and then **Run**. Each server gets its own connection without a tab — with its saved password, key or SSH agent — that is closed at the end. A command's variables (`{{host}}`, `{{alias}}`…) are filled in for each server, and `{{?questions}}` are asked once for all of them.
@@ -52,6 +52,10 @@ Pick the servers by folder, tag, text or one by one, choose how many run at once
 The console shows one row per server: **OK**, **Error** (with the reason: the server is down, the password is not saved, the command failed…) or **Timed out**, how long it took and its output (click the row). **Export CSV** and **Export JSON** save the report.
 
 A command in a batch runs in the server's shell (bash, sh, zsh…). Its exit code decides OK or Error. For network devices (switches, routers) use a script, which can wait for the device's own prompt.
+
+## Recording a macro
+
+The **Macros** panel of the sidebar (**Alt+U**) records what you type in the active tab: press *Record a macro*, work as usual, then *Stop and save* and give it a name. It is saved as a script of your library that waits for the same prompts and types the same lines, so you can edit it like any other script. Passwords and codes you type without echo are never saved: the macro asks for them when it runs. The panel lists the recorded macros; ▶ runs one in the active tab.
 
 ## The `synapterm` module (API v1)
 
@@ -162,7 +166,7 @@ app.message(f"Switch backups in {folder}", kind="success")
 
 ## Security
 
-- Only scripts in your library run, and only on **SynapTerm Pro** (or the beta).
+- Only scripts in your library run. The free plan keeps up to 8 scripts and 8 macros; SynapTerm Pro (or the beta) has no limit and adds running a command or script on several servers at once.
 - A script can only use the session it was started from and the sessions it opens itself.
 - The API has no way to read saved passwords, passphrases, private keys or the key that encrypts your server list.
 - Running on several servers always shows the list of targets first.

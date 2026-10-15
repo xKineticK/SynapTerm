@@ -10,4 +10,4 @@ SynapTerm is a terminal and session manager: local terminals, SSH with file tran
 - [Keyboard shortcuts](shortcuts.md)
 - [FAQ and troubleshooting](faq.md)
 
-Found a bug? *Settings → About & updates → Report a problem* prepares a report you can review and paste into a [GitHub issue](https://github.com/xKineticK/SynapTerm/issues/new/choose).
+Found a bug or have an idea? Click **Feedback** at the right of the action bar: it reaches the SynapTerm team directly. You can also open a [GitHub issue](https://github.com/xKineticK/SynapTerm/issues/new/choose).

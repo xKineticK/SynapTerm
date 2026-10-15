@@ -32,6 +32,8 @@
 
 *Settings → About & updates → Check for updates now*. Updates come from GitHub Releases and are verified with SynapTerm's signing key before they are installed. SynapTerm restarts to finish, which closes the open sessions.
 
-## Reporting a problem
+## Reporting a problem or suggesting an idea
 
-*Settings → About & updates → Report a problem* builds a report (version, system and recent warnings from the log, without passwords). After you review it, it is copied to the clipboard and the GitHub issue form opens so you can paste it. Never paste passwords, private keys or recovery keys in an issue.
+Click **Feedback** at the right of the action bar (also *Settings → About & updates → Report a problem*). Choose *Report a problem* or *Suggest an idea*, describe it and press *Send* (or Ctrl+Enter). It goes to the SynapTerm team with the app version and your system. Your email is optional and only used to reply.
+
+The app log is attached only if you tick *Attach the app log*: it's the last 200 lines, without passwords, and *See exactly what is sent* shows it before you send. Reports we work on are published as [GitHub issues](https://github.com/xKineticK/SynapTerm/issues), never with your email. You can also open an issue there yourself; never paste passwords, private keys or recovery keys in one.

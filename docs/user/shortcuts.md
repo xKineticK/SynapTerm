@@ -8,10 +8,15 @@ Every shortcut can be changed or removed in *Settings → Keyboard shortcuts*.
 | General | Open settings | Ctrl+, |
 | General | Sessions panel (opens it, or closes it if it is open) | Alt+I |
 | General | Python scripts panel | Alt+Y |
-| General | Macros panel | Alt+U |
+| General | Macros panel: record and replay macros | Alt+U |
+| General | Open sessions panel: every tab and pane with its state | Alt+O |
 | General | Command Manager panel | Alt+J |
 | Tabs & panes | New local terminal tab | Ctrl+T |
 | Tabs & panes | Next / previous tab | Ctrl+Tab / Ctrl+Shift+Tab |
+| Tabs & panes | Go to tab 1…9 | Alt+1 … Alt+9 |
+| General | Full screen (on / off) | Alt+Enter |
+| Terminal | Bigger / smaller / default text (also Ctrl+mouse wheel) | Ctrl+= / Ctrl+- / Ctrl+0 |
+| Tabs & panes | Clone session, lock session, reconnect all, disconnect all | (no default) |
 | Tabs & panes | Close pane (the tab closes with its last pane) | Ctrl+W |
 | Tabs & panes | Split pane right / down | Ctrl+Shift+E / Ctrl+Shift+O |
 | Tabs & panes | Move to the pane on the left / right / above / below | Alt+Left / Alt+Right / Alt+Up / Alt+Down |
