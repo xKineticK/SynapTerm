@@ -26,7 +26,7 @@
 
 **"Database locked" at startup.** The database is encrypted and its key isn't in this computer's keyring (a new computer, or the keyring was reset). Unlock it with your **recovery key** (`KSK1-…`).
 
-**Does SynapTerm send anything?** No telemetry and no crash reports. Only if you enable *Check for updates when SynapTerm starts* does it ask GitHub for the latest version; nothing about you or your servers is sent.
+**Does SynapTerm send anything?** No telemetry and no crash reports. Only if you enable *Check for updates when SynapTerm starts* does it ask the SynapTerm update server for the latest version, sending your license, the installed version and the platform; nothing about your servers is sent.
 
 ## Updates
 
