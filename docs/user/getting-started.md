@@ -6,11 +6,12 @@ SynapTerm is in closed beta: ask for access at [synapterm.com](https://synapterm
 
 | System | File | Notes |
 | --- | --- | --- |
-| Windows 10/11 | `SynapTerm_x.y.z_x64-setup.exe` (or `.msi`) | Installs for your user, no administrator rights needed. Uses the Edge WebView2 runtime (part of Windows 11; the installer downloads it if missing). |
-| macOS 11+ | `SynapTerm_x.y.z_aarch64.dmg` (Apple Silicon) or `_x64.dmg` (Intel) | Drag SynapTerm to Applications. |
+| Windows 10/11 | `SynapTerm_x.y.z_x64-setup.exe` | Installs for your user, no administrator rights needed. Uses the Edge WebView2 runtime (part of Windows 11; the installer downloads it if missing). |
 | Linux | `.AppImage`, `.deb` or `.rpm` | The AppImage runs anywhere: make it executable (`chmod +x`) and start it. |
 
-During the beta the builds may not be code-signed yet, so Windows SmartScreen or macOS Gatekeeper can warn the first time. On Windows choose *More info → Run anyway*; on macOS right-click the app and choose *Open*.
+macOS is coming later.
+
+The Windows installer is not code-signed yet, so Windows SmartScreen can warn the first time: choose *More info → Run anyway*. Updates are downloaded by SynapTerm itself and verified before they are installed. To check that a download is the one we published, compare its SHA-256 with the one on the download page: `Get-FileHash <file>` in PowerShell, `sha256sum <file>` on Linux.
 
 ## First steps
 

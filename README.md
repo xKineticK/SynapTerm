@@ -4,13 +4,16 @@
 
 ## Download
 
-SynapTerm is in **closed beta**. Ask for access at **[synapterm.com](https://synapterm.com)**: your invitation email has your license key and the download links for:
+SynapTerm is in **closed beta**. Ask for access at **[synapterm.com](https://synapterm.com)**: your invitation email links to a page with your license key and the downloads for:
 
 | System | File |
 | --- | --- |
-| Windows 10/11 | `SynapTerm_x.y.z_x64-setup.exe` (or the `.msi`) |
-| macOS 11+ | `SynapTerm_x.y.z_aarch64.dmg` (Apple Silicon) or `SynapTerm_x.y.z_x64.dmg` (Intel) |
+| Windows 10/11 | `SynapTerm_x.y.z_x64-setup.exe` |
 | Linux | `.AppImage`, `.deb` or `.rpm` |
+
+macOS is coming later.
+
+The Windows installer is not code-signed yet, so Windows may show "Windows protected your PC": choose *More info → Run anyway*. The download page shows the SHA-256 of each file so you can check it (`Get-FileHash <file>` in PowerShell, `sha256sum <file>` on Linux).
 
 SynapTerm can check for updates by itself (*Settings → About & updates*) while your license includes updates; they are signed and verified before they are installed.
 
@@ -20,7 +23,7 @@ SynapTerm can check for updates by itself (*Settings → About & updates*) while
 - **Telnet**, **serial** consoles, **RDP** and **VNC** remote desktops
 - Saved servers with folders and tags, quick search (`Ctrl+Shift+K`), broadcast typing to several sessions, command history and buttons
 - Resource bar for SSH servers (CPU, memory, disks, network) without installing anything on them
-- **AI assistant**: use your own Claude Code (as a chat or in a terminal), Gemini CLI or Codex, or your own API key. The assistant asks before reading a tab or running a command, never sees your passwords, and every action is logged
+- **AI assistant**: use your own Claude Code, Codex or OpenCode (as a chat or in a terminal), Gemini CLI (in a terminal), or your own API key. The assistant asks before reading a tab or running a command, never sees your passwords, and every action is logged
 - Passwords and keys stay in your system keychain; the server list is encrypted. **No telemetry**
 
 ## Documentation
