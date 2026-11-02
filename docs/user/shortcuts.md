@@ -32,6 +32,7 @@ Every shortcut can be changed or removed in *Settings → Keyboard shortcuts*.
 | Commands | Saved commands | Ctrl+Shift+J |
 | Commands | Type in all panes of the tab (on / off) | Ctrl+Shift+M |
 | Commands | Show / hide the button bar; type in all open sessions | (no default) |
+| Automation | Stop the scripts running in the active tab | Ctrl+Shift+X |
 | Remote desktop | Ctrl+Alt+Del | Ctrl+Alt+End |
 
 In a remote desktop, SynapTerm's own shortcuts keep working; every other key goes to the remote computer.

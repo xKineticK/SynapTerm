@@ -26,6 +26,7 @@ The Windows installer is not code-signed yet, so Windows SmartScreen can warn th
 
 - **Ctrl+T** opens another local terminal; double-clicking a server opens it in a new tab.
 - Split a tab with **Ctrl+Shift+E** (right) or **Ctrl+Shift+O** (down) and move between panes with **Alt+arrows**.
+- **Rename a tab**: double-click it (or right-click it → *Rename*), type the name and press **Enter**; **Esc** cancels, and an empty name goes back to the automatic one. The name is only for that tab (the saved server keeps its own) and lasts until you close it; reconnecting does not change it. *Settings → Terminal → Tab name when connecting* chooses the automatic name of server tabs: the session name (the default) or user@connection, as in `admin@192.168.1.10`.
 - When a connection drops, press **Enter** in the terminal to reconnect.
 
 ## Saved commands and the button bar

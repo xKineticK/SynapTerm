@@ -20,7 +20,7 @@
 
 ## Data and privacy
 
-**Where is my data?** Windows: `%APPDATA%\com.msark.koreshell`; macOS: `~/Library/Application Support/com.msark.koreshell`; Linux: `~/.local/share/com.msark.koreshell`. Logs are in its `logs` folder (*Settings → Security & Privacy* shows the path).
+**Where is my data?** Windows: `%APPDATA%\com.synapterm.desktop`; macOS: `~/Library/Application Support/com.synapterm.desktop`; Linux: `~/.local/share/com.synapterm.desktop`. Logs are in its `logs` folder (*Settings → Security & Privacy* shows the path).
 
 **"Server list recovered" at startup.** The database file was damaged (for example after a crash or a full disk). SynapTerm kept the damaged file next to the new one (`session_manager.corrupt-….sqlite`) and started with an empty list: restore your last export from *Settings → Import & export*.
 

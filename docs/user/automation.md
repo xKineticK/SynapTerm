@@ -18,6 +18,7 @@ In the same section:
 
 - **Maximum run time**: a script still running after this is stopped, together with the sessions it opened (30 minutes by default).
 - **Servers at once in a batch**: how many servers a batch runs on at the same time (5 by default).
+- **Open the script console**: *Only if it fails* (the default) keeps the terminal clear — a script run in a tab is seen in the terminal itself, and the console opens by itself only when the script fails or runs out of time. *Always* opens it for every run; *Never* leaves it closed (the error notice has **Show console**). Batches always open it.
 - **Show log**: opens the automation log (see [Security](#security)).
 
 ## The script library
@@ -36,7 +37,9 @@ Only scripts in your library can run. Open it from the **Scripts** icon in the s
 - **⋯ → Button and shortcut…** adds a ▶ button for the script to the button bar under the terminal and gives it its own keyboard shortcut.
 - In the command palette (**Ctrl+Shift+K**), type `>` and part of the script name.
 
-The **script console** opens under the terminal: one tab per run, with its live output and its state (*Running*, *Done*, *Error*, *Stopped*, *Timed out*). **Stop** ends a script and everything it started.
+What a script types and what the server answers are seen in the **terminal**. What it writes with `print()`, and its errors, go to the **script console** under the terminal: one tab per run, with its live output and its state (*Running*, *Done*, *Error*, *Stopped*, *Timed out*). By default the console opens only when a script fails or runs out of time (**Settings → Automation → Open the script console**); open it at any time with **Console** at the bottom of the *Scripts* panel. **Stop** in the console ends a script and everything it started.
+
+While a script runs, its tab shows **■**: click it to stop the scripts of that tab, or press **Ctrl+Shift+X** (change it in *Settings → Keyboard shortcuts*). Scripts running without a tab show **N scripts running without a tab** at the end of the tab bar: click it to stop them. Stopping also closes the sessions the script opened.
 
 Do not use `input()` to ask something: it shows a SynapTerm dialog instead (same as `app.prompt()`).
 

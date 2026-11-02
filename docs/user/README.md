@@ -1,7 +1,5 @@
 # SynapTerm user guide
 
-> SynapTerm was formerly KoreShell. Updating keeps all your servers, passwords, keys and settings.
-
 SynapTerm is a terminal and session manager: local terminals, SSH with file transfer and tunnels, Telnet, serial consoles and remote desktops (RDP and VNC), all in tabs.
 
 - [Getting started](getting-started.md): install, first connection, tabs and panes
