@@ -23,7 +23,7 @@ In the same section:
 
 ## The script library
 
-Only scripts in your library can run. Open it from the **Scripts** icon in the sidebar (or press **Alt+I** to show the sidebar).
+Only scripts in your library can run. Open it from the **Scripts** icon in the sidebar (or press **Alt+Y**).
 
 - **New Script** creates a `.py` file from a template that explains the basics.
 - **Add .py** copies a script you already have into the library.
