@@ -7,6 +7,7 @@ SynapTerm is in closed beta: ask for access at [synapterm.com](https://synapterm
 | System | File | Notes |
 | --- | --- | --- |
 | Windows 10/11 | `SynapTerm_x.y.z_x64-setup.exe` | Installs for your user, no administrator rights needed. Uses the Edge WebView2 runtime (part of Windows 11; the installer downloads it if missing). |
+| Windows 10/11, portable | `SynapTerm_x.y.z_x64-portable.zip` | Unzip it in a folder or on a USB drive and open `SynapTerm.exe`: nothing is installed, your data stays in the folder behind a master password. See [Portable copy for Windows](portable.md). |
 | Linux | `.AppImage`, `.deb` or `.rpm` | The AppImage runs anywhere: make it executable (`chmod +x`) and start it. |
 
 macOS is coming later.

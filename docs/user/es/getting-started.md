@@ -7,6 +7,7 @@ SynapTerm está en beta cerrada: pide acceso en [synapterm.com](https://synapter
 | Sistema | Fichero | Notas |
 | --- | --- | --- |
 | Windows 10/11 | `SynapTerm_x.y.z_x64-setup.exe` | Se instala para tu usuario, sin permisos de administrador. Usa el runtime Edge WebView2 (viene con Windows 11; si falta, el instalador lo descarga). |
+| Windows 10/11, portable | `SynapTerm_x.y.z_x64-portable.zip` | Descomprímelo en una carpeta o un USB y abre `SynapTerm.exe`: no se instala nada y tus datos se quedan en la carpeta, protegidos con una contraseña maestra. Ver [Copia portable para Windows](portable.md). |
 | Linux | `.AppImage`, `.deb` o `.rpm` | La AppImage funciona en cualquier distribución: dale permiso de ejecución (`chmod +x`) y ábrela. |
 
 macOS llegará más adelante.

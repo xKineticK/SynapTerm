@@ -3,6 +3,7 @@
 SynapTerm is a terminal and session manager: local terminals, SSH with file transfer and tunnels, Telnet, serial consoles and remote desktops (RDP and VNC), all in tabs.
 
 - [Getting started](getting-started.md): install, first connection, tabs and panes
+- [Portable copy for Windows](portable.md): SynapTerm in a folder or on a USB drive, with a master password
 - [Protocols](protocols.md): SSH, SFTP, tunnels, Telnet, serial, RDP and VNC
 - [Automation](automation.md): Python scripts and running commands on many servers (Pro)
 - [Keyboard shortcuts](shortcuts.md)

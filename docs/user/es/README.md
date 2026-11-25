@@ -3,6 +3,7 @@
 SynapTerm es un terminal y gestor de sesiones: terminales locales, SSH con transferencia de ficheros y túneles, Telnet, consolas serie y escritorios remotos (RDP y VNC), todo en pestañas.
 
 - [Primeros pasos](getting-started.md): instalación, primera conexión, pestañas y paneles
+- [Copia portable para Windows](portable.md): SynapTerm en una carpeta o un USB, con contraseña maestra
 - [Protocolos](protocols.md): SSH, SFTP, túneles, Telnet, serie, RDP y VNC
 - [Automatización](automation.md): scripts de Python y comandos en muchos servidores a la vez (Pro)
 - [Atajos de teclado](shortcuts.md)
